@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap');
+
+.nav {
+    background-color: #fff;
+    padding: 20px 0;
+}
+
+.nav .nav-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav .nav-section h1 {
+    font-weight: 900;
+    font-family: Lily Script One ;
+    font-size: 2em;
+}
+
+.nav .nav-section .links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav .nav-section .links .currency {
+    text-decoration: none;
+    color: #000;
+    font-weight: 900;
+    font-size: 17px;
+}
