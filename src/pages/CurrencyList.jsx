@@ -34,6 +34,7 @@ export const CurrencyList = () => {
         setKupovniTecaj(kupovniTecajArr.sort((x, y) => x - y))
         setProdajniTecaj(prodajniTecajArr.sort((x, y) => x - y))
         setSrednjiTecaj(srednjiTecajArr.sort((x, y) => x - y))
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [conversionData])
 
 	return (
